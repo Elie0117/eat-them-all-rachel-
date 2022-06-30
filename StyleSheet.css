@@ -1,0 +1,77 @@
+﻿body {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/718/756/55/gray-dark-gradation-blur-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+    li a {
+        display: block;
+        color: lightgray;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        /* Change the link color to #111 (black) on hover */
+        li a:hover {
+            background-color: #111;
+            text-decoration-color: blue;
+        }
+h1{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-style: oblique;
+   font-weight:300;
+   font-size: 32px
+}
+h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style:normal;
+font-weight:200; 
+font-size: 17px;
+padding-left: 100px;
+padding-right: 100px;
+color: antiquewhite;
+}
+h4 a{
+    color: palegoldenrod;
+ 
+}
+h4 a:hover{
+    color: antiquewhite;
+}
+img{
+    padding-left: 80px;
+    padding-right:80px;
+}
+h5 a{
+    color: azure;
+}
+h5 a:hover{
+    color: lightgreen;
+}
+h5{
+    padding-left: 80px;
+}
+img a {
+    width: 200px;
+    height: 200px;
+    background: none;
+    transition: width 2s, height 4s;
+}
+
+    img a:hover {
+        width: 400px;
+        height: 400px;
+    }
